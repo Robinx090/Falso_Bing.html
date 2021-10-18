@@ -2,18 +2,16 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Falso AEMET2</title>
+	<title>Falso BING</title>
 </head>
 <body>
-		<form method="get" action="http://www.aemet.es/es/buscador">
-			<p>Introduzca la ciudad:</p><br>
-				<input id="fuen" type="radio" name="str" value="fuenlabrada">
-					<label for="fuen">Fuenlabrada</label><br>
-				<input id="most" type="radio" name="str" value="mostoles">
-					<label for="most">Mostoles</label><br>
-				<input id="barc" type="radio" name="str" value="barcelona">
-					<label for="barc">Barcelona</label><br><br>
+		<form method="get" action="https://www.bing.com/search">
+			<label for="buscador">Introduzca su búsqueda</label><br>
+				<input id="buscador" type="text" name="q" placeholder="Introduzca su búsqueda"><br><br>
+			<label for="idioma">Introduzca el idioma con el que quiera que se busque</label><br>
+				<input id="idioma" type="text" name="setlang" placeholder="Introduzca el idioma"><br>
 				<input type="submit" value="Buscar">
+<!--He puesto.html para que se pueda ver el código ya que los cuadros de búsqueda no se pueden visualizar-->
 		</form>
 </body>
 </html>
