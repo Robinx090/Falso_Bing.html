@@ -11,7 +11,6 @@
 			<label for="idioma">Introduzca el idioma con el que quiera que se busque</label><br>
 				<input id="idioma" type="text" name="setlang" placeholder="Introduzca el idioma"><br>
 				<input type="submit" value="Buscar">
-<!--He puesto.html para que se pueda ver el código ya que los cuadros de búsqueda no se pueden visualizar-->
 		</form>
 </body>
 </html>
